@@ -11,7 +11,7 @@
 #include <stack>
 #include <set>
 using namespace std;
-// hi§”≥∂∑±§§§∑∏Æ;§ø§§§∑§§§∑§§
+// hi§”≥∂∑±§§
 // ∏≈≈©∑Œ ¡§¿«
 #define INF 2147483647
 #define MAX_MAP_SIZE 100
