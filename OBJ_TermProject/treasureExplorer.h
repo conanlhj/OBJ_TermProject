@@ -11,7 +11,8 @@
 #include <conio.h>
 #include <vector>
 using namespace std;
-// 메크로 정의
+
+// 매크로 정의
 #define INF 2147483647
 #define MAX_MAP_SIZE 100
 
