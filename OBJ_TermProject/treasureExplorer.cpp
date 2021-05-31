@@ -23,7 +23,6 @@ void blink(unsigned int interval_msecs, atomic<bool>& keep_at_it) {
 	while (keep_at_it)
 	{
 		gotoxy(0, 28);
-
 		cout << " |                                     > Press any key to start!                                           |\r";
 		this_thread::sleep_for(chrono::milliseconds(interval_msecs));
 		cout << " |                                                                                                         |\r";
@@ -81,6 +80,9 @@ void intro() {
 
 void printINFO(Player* p) {
 	gotoxy(3, 2);
+	cout << "      NAME  : " << p->getName();
+	gotoxy(3, 3);
+	cout << "     SCORE  : %d";
 
 }
 
