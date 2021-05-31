@@ -11,7 +11,7 @@
 #include <stack>
 #include <set>
 using namespace std;
-// 아무거나ㅇㄴㄹㄴㅇㄹ
+// 아무거나ㅇㄴㄹㄴㅇㄹㅇㅊㅀㅇ
 // 매크로 정의
 #define INF 2147483647
 #define MAX_MAP_SIZE 100
