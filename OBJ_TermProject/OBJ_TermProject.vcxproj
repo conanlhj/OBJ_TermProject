@@ -149,6 +149,7 @@
     <ClCompile Include="Place.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="Ruin.cpp" />
+    <ClCompile Include="Test.cpp" />
     <ClCompile Include="treasureExplorer.cpp" />
     <ClCompile Include="Village.cpp" />
   </ItemGroup>

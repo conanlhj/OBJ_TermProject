@@ -21,20 +21,23 @@ typedef pair<int, int> Pair;
 // <double, pair<int, int> >를 나타내기 위함
 typedef pair<double, pair<int, int>> pPair;
 
-class Map {
-private:
-	char map[MAX_MAP_SIZE][MAX_MAP_SIZE];
-	vector<Monster*> monsters;
-	vector<Village*> villages;
-	vector<Ruin*> ruins;
-	vector<Ore*> ores;
-	vector<Mountain*> mountains;
-	Player* p;
-public:
-	Map();
-	void printMap();
-	char* getMap();
-	Player* getPlr();
+enum {
+	BLACK,
+	DARK_BLUE,
+	DARK_GREEN,
+	DARK_SKYBLUE,
+	DARK_RED,
+	DARK_VOILET,
+	DAKR_YELLOW,
+	GRAY,
+	DARK_GRAY,
+	BLUE,
+	GREEN,
+	SKYBLUE,
+	RED,
+	VIOLET,
+	YELLOW,
+	WHITE,
 };
 
 class Object {
@@ -147,6 +150,26 @@ public:
 	char getChar();
 };
 
+class Map {
+private:
+	char map[MAX_MAP_SIZE][MAX_MAP_SIZE];
+	vector<Monster> monsters;
+	vector<Village> villages;
+	vector<Ruin> ruins;
+	vector<Ore> ores;
+	vector<Mountain> mountains;
+	Player* p;
+public:
+	Map();
+	void printMap();
+	char* getMap();
+	Player* getPlr();
+};
+
+class Game {
+
+};
+
 void run_game();
 void gotoxy(int x, int y);
 void story(int part);
@@ -155,3 +178,4 @@ void gameStartInit();
 void gameInit();
 void blink(unsigned int interval_msecs, atomic<bool>& keep_at_it);
 void printUIBox();
+void printMapInfo();

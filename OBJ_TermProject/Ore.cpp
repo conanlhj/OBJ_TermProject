@@ -1,7 +1,7 @@
 #include "treasureExplorer.h"
 
-Ore::Ore(int y, int x, int value) : Object(false, true, false) {
-	this->x = x;
-	this->y = y;
-	this->value = value;
+Ore::Ore(int _y, int _x, int _value) : Object(false, true, false) {
+	x = _x;
+	y = _y;
+	value = _value;
 }

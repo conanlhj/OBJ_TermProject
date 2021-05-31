@@ -1,0 +1,23 @@
++-----| _ Plain |-----+
+| Land to roam around |
++---------------------+
++---| T  Mountain |---+
+|      Too rough      |
+|      to climb.      |
++---------------------+
++-----| +  Gold |-----+
+|   10 bucks if you   |
+|        Sell!        |
++---------------------+
++----| * Diamond |----+
+|   50 bucks if you   |
+|        Sell!        |
++---------------------+
++-----| ?  ruin |-----+
+|   Luck must be at   |
+|  least 1 to enter.  |
++---------------------+
++-----| #  town |-----+
+| You can buy things! |
+|  Whatever you need  |
++---------------------+

@@ -14,31 +14,31 @@ Map::Map() {
 				map[i][j] = 'T';
 				Mountain* m = (Mountain*)malloc(sizeof(Mountain));
 				*m = Mountain(i, j);
-				mountains.push_back(m);
+				mountains.push_back(*m);
 			}
 			else if (tmp < 97) {
 				map[i][j] = '+';
 				Ore* o = (Ore*)malloc(sizeof(Ore));
 				*o = Ore(i, j, 10);
-				ores.push_back(o);
+				ores.push_back(*o);
 			}
 			else if (tmp < 98) {
 				map[i][j] = '*';
 				Ore* o = (Ore*)malloc(sizeof(Ore));
 				*o = Ore(i, j, 50);
-				ores.push_back(o);
+				ores.push_back(*o);
 			}
 			else if (tmp < 99) {
 				map[i][j] = '?';
 				Ruin* r = (Ruin*)malloc(sizeof(Ruin));
 				*r = Ruin(i, j);
-				ruins.push_back(r);
+				ruins.push_back(*r);
 			}
 			else {
 				map[i][j] = '#';
 				Village* v = (Village*)malloc(sizeof(Village));
 				*v = Village(i, j);
-				villages.push_back(v);
+				villages.push_back(*v);
 			}
 		}
 }

@@ -1,7 +1,8 @@
 ﻿#include "treasureExplorer.h"
 
 /* 몬스터 클래스 입니다. */
-Monster::Monster(int y, int x) {
+Monster::Monster(int _y, int _x) {
+	y = _y, x = _x;
 	// 난수 생성 준비 후 난수 생성
 	std::random_device rd;
 	std::mt19937 gen(rd());

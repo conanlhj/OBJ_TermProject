@@ -1,6 +1,6 @@
 #include "treasureExplorer.h"
 
-Village::Village(int y, int x) : Place() {
-	this->x = x;
-	this->y = y;
+Village::Village(int _y, int _x) : Place() {
+	x = _x;
+	y = _y;
 }
