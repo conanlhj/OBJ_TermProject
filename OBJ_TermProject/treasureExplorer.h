@@ -87,8 +87,14 @@ private:
 	int dead_code;
 public:
 	Player();
+	Player(string name);
 	char getDirection();
 	char getChar();
+	void addScore(int score);
+	void addFood(int food);
+	void addLuck();
+	void setDC(int dc);
+
 };
 
 class Monster : public MovingObject {
