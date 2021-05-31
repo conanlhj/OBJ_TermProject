@@ -95,7 +95,7 @@ void printINFO() {
 
 }
 
-
+/* Main 함수입니다. */
 int main() {
 	run_game();
 	return 0;
