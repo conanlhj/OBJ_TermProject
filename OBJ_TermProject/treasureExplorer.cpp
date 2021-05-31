@@ -12,11 +12,11 @@ void gameInit() {
 	system("mode con cols=64 lines=38");
 }
 
+/* 화면에서 커서 움직이기 */
 void gotoxy(int x, int y) {
 	COORD pos = { x, y };
 	SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), pos);
 }
-
 
 /* 시작화면 깜빡 */
 void blink(unsigned int interval_msecs, atomic<bool>& keep_at_it) {
