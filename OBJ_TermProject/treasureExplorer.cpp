@@ -54,7 +54,7 @@ void run_game() {
 	gameInit();
 
 	printUIBox();
-	printINFO(&p);
+	printINFO(map.getPlr());
 }
 
 void intro() {
@@ -79,21 +79,8 @@ void intro() {
 
 }
 
-void printINFO() {
-	gotoxy(1, 1);
-	ifstream file;
-	file.open("ObjInfo.txt");
-
-	if (!file.is_open()) {
-		cout << "intro.txt" << " 파일을 찾을 수 없습니다." << endl;
-		return;
-	}
-
-	while (!file.eof()) {
-		string str;
-		getline(file, str);
-		cout << str << endl;
-	}
+void printINFO(Player* p) {
+	gotoxy(3, 2);
 
 }
 

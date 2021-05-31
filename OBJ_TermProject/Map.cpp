@@ -44,3 +44,4 @@ Map::Map() {
 }
 
 char* Map::getMap() { return &map[0][0]; }
+Player* Map::getPlr() { return p; }

@@ -34,6 +34,7 @@ public:
 	Map();
 	void printMap();
 	char* getMap();
+	Player* getPlr();
 };
 
 class Object {
