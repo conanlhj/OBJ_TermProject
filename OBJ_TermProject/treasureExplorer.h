@@ -1,15 +1,15 @@
 #include <windows.h>
 #include <iostream>
+#include <conio.h>
 #include <fstream>
-#include <string>
+#include <atomic>
+#include <future>
+#include <thread>
 #include <random>
+#include <string>
+#include <vector>
 #include <stack>
 #include <set>
-#include <atomic>
-#include <thread>
-#include <future>
-#include <conio.h>
-#include <vector>
 using namespace std;
 
 // 매크로 정의
