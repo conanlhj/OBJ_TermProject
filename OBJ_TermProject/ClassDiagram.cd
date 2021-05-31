@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Map" Collapsed="true">
+    <Position X="14.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEIARQBAAEAEAAgAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>treasureExplorer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Object" Collapsed="true">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAoAAIAAAAACAAAAAARAABgCGAAAAA=</HashCode>
+      <FileName>treasureExplorer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovingObject" Collapsed="true">
+    <Position X="1.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAICAAAAAAAAAABAAAQAAIAAgAAAAEAg=</HashCode>
+      <FileName>treasureExplorer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAIAEAIAAAAAAAEAAAAAAAAAQAAAgI=</HashCode>
+      <FileName>treasureExplorer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Monster" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="Monster::cell" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>treasureExplorer.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>EAAAAAgBAQAACAAIAgAAQAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>treasureExplorer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mountain">
+    <Position X="11.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>treasureExplorer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ore">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAACAgAAAAAAAAAAA=</HashCode>
+      <FileName>treasureExplorer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Place" Collapsed="true">
+    <Position X="8.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAE=</HashCode>
+      <FileName>treasureExplorer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ruin">
+    <Position X="7.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>treasureExplorer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Village">
+    <Position X="9.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>treasureExplorer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Typedef Name="Pair" Collapsed="true">
+    <Position X="14.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>treasureExplorer.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="pPair" Collapsed="true">
+    <Position X="16" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>treasureExplorer.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>
