@@ -17,6 +17,8 @@ void gotoxy(int x, int y) {
 	SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), pos);
 }
 
+
+/* Ω√¿€»≠∏È ±Ù∫˝ */
 void blink(unsigned int interval_msecs, atomic<bool>& keep_at_it) {
 	while (keep_at_it)
 	{
